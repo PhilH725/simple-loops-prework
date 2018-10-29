@@ -54,7 +54,8 @@ def for_iterator(number_of_times)
   counter = 0
   for num in it_range
     puts phrase
-    counter += 1
-    break if counter == number_of_times
+  end
+  7.times do
+    puts phrase
   end
 end
